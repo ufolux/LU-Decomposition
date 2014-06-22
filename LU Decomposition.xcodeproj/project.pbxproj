@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35037C7B194C69DF00882883 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 35037C78194C69DF00882883 /* Contents.json */; };
+		35037C7C194C69DF00882883 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 35037C7A194C69DF00882883 /* Contents.json */; };
+		356A6D5819474D5500F1B6A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356A6D5719474D5500F1B6A9 /* Main.storyboard */; };
+		356A6D5B194768FF00F1B6A9 /* LU_DecompositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A6D5A194768FF00F1B6A9 /* LU_DecompositionViewController.swift */; };
+		356A6D5F19477BF300F1B6A9 /* LU_ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A6D5E19477BF300F1B6A9 /* LU_ResultViewController.swift */; };
+		358F2A9C1948DBF0007A5ED3 /* MatrixEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358F2A9B1948DBF0007A5ED3 /* MatrixEntity.swift */; };
 		35B9E6CA1946FA47007E912F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9E6C91946FA47007E912F /* AppDelegate.swift */; };
 		35B9E6CC1946FA47007E912F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B9E6CB1946FA47007E912F /* Images.xcassets */; };
 		35B9E6D81946FA47007E912F /* LU_DecompositionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B9E6D71946FA47007E912F /* LU_DecompositionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		35759134194C72E600382A6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35B9E6BC1946FA47007E912F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B9E6C31946FA47007E912F;
+			remoteInfo = "LU Decomposition";
+		};
 		35B9E6D21946FA47007E912F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 35B9E6BC1946FA47007E912F /* Project object */;
@@ -23,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35037C78194C69DF00882883 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		35037C7A194C69DF00882883 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		356A6D5719474D5500F1B6A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		356A6D5A194768FF00F1B6A9 /* LU_DecompositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LU_DecompositionViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		356A6D5E19477BF300F1B6A9 /* LU_ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LU_ResultViewController.swift; sourceTree = "<group>"; };
+		358F2A9B1948DBF0007A5ED3 /* MatrixEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatrixEntity.swift; path = ../MatrixEntity.swift; sourceTree = "<group>"; };
 		35B9E6C41946FA47007E912F /* LU Decomposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LU Decomposition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B9E6C81946FA47007E912F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B9E6C91946FA47007E912F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +69,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35037C77194C69DF00882883 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				35037C78194C69DF00882883 /* Contents.json */,
+			);
+			name = AppIcon.appiconset;
+			path = Images.xcassets/AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		35037C79194C69DF00882883 /* LaunchImage.launchimage */ = {
+			isa = PBXGroup;
+			children = (
+				35037C7A194C69DF00882883 /* Contents.json */,
+			);
+			name = LaunchImage.launchimage;
+			path = Images.xcassets/LaunchImage.launchimage;
+			sourceTree = "<group>";
+		};
 		35B9E6BB1946FA47007E912F = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +110,13 @@
 			children = (
 				35B9E6C91946FA47007E912F /* AppDelegate.swift */,
 				35B9E6CB1946FA47007E912F /* Images.xcassets */,
+				35037C77194C69DF00882883 /* AppIcon.appiconset */,
+				35037C79194C69DF00882883 /* LaunchImage.launchimage */,
 				35B9E6C71946FA47007E912F /* Supporting Files */,
+				356A6D5719474D5500F1B6A9 /* Main.storyboard */,
+				358F2A9B1948DBF0007A5ED3 /* MatrixEntity.swift */,
+				356A6D5E19477BF300F1B6A9 /* LU_ResultViewController.swift */,
+				356A6D5A194768FF00F1B6A9 /* LU_DecompositionViewController.swift */,
 			);
 			path = "LU Decomposition";
 			sourceTree = "<group>";
@@ -113,6 +156,7 @@
 				35B9E6C01946FA47007E912F /* Sources */,
 				35B9E6C11946FA47007E912F /* Frameworks */,
 				35B9E6C21946FA47007E912F /* Resources */,
+				35037C76194C688F00882883 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -135,6 +179,7 @@
 			);
 			dependencies = (
 				35B9E6D31946FA47007E912F /* PBXTargetDependency */,
+				35759135194C72E600382A6C /* PBXTargetDependency */,
 			);
 			name = "LU DecompositionTests";
 			productName = "LU DecompositionTests";
@@ -183,6 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				35B9E6CC1946FA47007E912F /* Images.xcassets in Resources */,
+				356A6D5819474D5500F1B6A9 /* Main.storyboard in Resources */,
+				35037C7B194C69DF00882883 /* Contents.json in Resources */,
+				35037C7C194C69DF00882883 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,12 +243,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35037C76194C688F00882883 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35B9E6C01946FA47007E912F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				35B9E6CA1946FA47007E912F /* AppDelegate.swift in Sources */,
+				356A6D5B194768FF00F1B6A9 /* LU_DecompositionViewController.swift in Sources */,
+				356A6D5F19477BF300F1B6A9 /* LU_ResultViewController.swift in Sources */,
+				358F2A9C1948DBF0007A5ED3 /* MatrixEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +282,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		35759135194C72E600382A6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35B9E6C31946FA47007E912F /* LU Decomposition */;
+			targetProxy = 35759134194C72E600382A6C /* PBXContainerItemProxy */;
+		};
 		35B9E6D31946FA47007E912F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 35B9E6C31946FA47007E912F /* LU Decomposition */;
@@ -240,8 +312,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -257,11 +330,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -282,7 +356,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -293,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -305,9 +380,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "LU Decomposition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,9 +395,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "LU Decomposition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -377,6 +460,7 @@
 				35B9E6DD1946FA47007E912F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35B9E6DE1946FA47007E912F /* Build configuration list for PBXNativeTarget "LU DecompositionTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +469,7 @@
 				35B9E6E01946FA47007E912F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
